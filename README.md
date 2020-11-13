@@ -34,6 +34,13 @@ docker exec -it flask bash
 ping redis
 ```
 
+## Build and Run with Docker Compose
+
+```bash
+docker-compose up -d --build --remove-orphans
+curl localhost:5000
+```
+
 ## Credit
 
 - [Intro to Docker (in Persian)](https://www.youtube.com/watch?v=_jKNnHROiC0&list=PLaMA3zAw4mkQE-RDxtXZnQTb0b8KsuZ3_) by [Jadi](https://github.com/jadijadi)
