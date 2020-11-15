@@ -1,4 +1,4 @@
-# docker-sample
+# docker-flask-redis
 *A simple Flask app + a Redis database*
 
 ## Build and Run with Docker Compose
